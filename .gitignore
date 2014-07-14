@@ -1,0 +1,10 @@
+*.jar
+*.tar
+*.tgz
+*.zip
+bin/*
+source/*
+!source/get_repositories.sh
+!source/modules_install_order.csv
+!source/source.csv
+!source/*/README.md
