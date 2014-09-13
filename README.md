@@ -6,13 +6,13 @@ Exposes Djatoka on port 8888.
 Build:
 
 ```
-docker build -t dts/djatoka:latest .
+./build.sh
 ```
 
 Run:
 
 ```
-docker run -d -p 8888:8888 --name djatoka dts/djatoka:latest # background
+./run.sh
 ```
 
 From within the container:
